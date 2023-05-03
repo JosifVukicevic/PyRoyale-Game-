@@ -1,0 +1,102 @@
+body {
+    background-color: black;
+    color: tomato;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+.welcome_text {
+    text-align: center;
+    font-size: 40px;
+}
+
+.left_div > a {
+    color: white;
+    font-size: 20px;
+}
+
+a:hover {
+    color: tomato;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right_div > img {
+    width: 250px;
+    height: 250px;
+    margin-left: 40px;
+}
+
+.right_div {
+    margin-right: 60px;
+}
+
+.back_to_index {
+    text-decoration: none;
+    color: white;
+}
+
+.back_to_index:hover {
+    color: rgb(255, 187, 0);
+}
+
+.first_level_text {
+    font-family: 'Nova Oval', cursive;
+    border: dotted;
+    border-color: white;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.div_first_level {
+    text-align: center;
+}
+
+.first_level_text > span {
+    color: white;
+}
+
+#for_video {
+    background: #000000;
+    background: url('') no-repeat;
+    background-size: cover;
+}
+
+#video-background {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+
+.first_level_text:hover {
+    font-size: 20px;
+    width: 900px;
+}
+
+.link > a:hover {
+    color: rgb(255, 187, 0);
+}
+
+.second_heading {
+    text-align: center;
+}
+
+::selection {
+    color: red;
+    background: yellow;
+}
+
+.img_all_heroes {
+    background-color: rgb(221, 221, 221);
+    width: 60%;
+    height: 60%;
+    display: block; 
+    margin: 0 auto;
+}
